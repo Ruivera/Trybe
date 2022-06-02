@@ -1,7 +1,7 @@
 	
 	
-	Este repositório contém todas as atividades de aprendizagem desenvolvidas por
- Bernardo Luz enquanto estudava na Trybe.
+	Este repositório contém todas as atividades de aprendizagem desenvolvidas
+ por Bernardo Luz enquanto estudava na Trybe.
 	"A Trybe é escola do futuro para qualuqer pessoa que queira melhorar de vida 
 e construir uma carreira de sucesso em tecnologia".
 	O Programa conta com mais de 1.500 horas de aulas presenciais e online, 
