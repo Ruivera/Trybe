@@ -40,3 +40,8 @@ a:hover {
     font-weight: bold;
     color: orange;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,14 @@
+body {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
 .caixa {
   color: white;
-  display: inline-block;
   line-height: 50px;
   text-align: center;
   vertical-align: top;
+  border: 5px solid blue;
 }
 
 .width-and-height {
