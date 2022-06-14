@@ -32,7 +32,7 @@ article {
     border: 1px solid black;
 }
 
-article h3 {
+article h2 {
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ section {
     border: 1px solid pink;
 }
 
-h3 {
+h2, h3 {
     border: 1px solid black;
 }
 
@@ -52,6 +52,14 @@ section:nth-of-type(1) {
 
 table {
     border-spacing: 0px;
+}
+
+#sobre {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
 }
 
 td, th {
