@@ -1,6 +1,11 @@
 body {
     margin: 0;
     background-color: #219ebc;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    text-align: center;
 }
 
 nav {
@@ -17,7 +22,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 15px;
     font-size: 20px;
 }
 
@@ -45,25 +49,15 @@ nav a {
 
 article {
     position: relative;
-    border: 1px solid black;
 }
 
 article h2 {
     text-align: center;
 }
 
-section {
-    border: 1px solid pink;
-}
-
-h2, h3 {
-    border: 1px solid black;
-}
-
 section:nth-of-type(1) {
     display: inline-block;
     margin-right: 20px;
-    border: 1px solid pink; 
 }
 
 table {
@@ -116,6 +110,10 @@ aside {
 
 aside p {
     width: 250px;
+}
+
+aside h3 {
+    text-decoration: underline 2px solid black;
 }
 
 ul li {
