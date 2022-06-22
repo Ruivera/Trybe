@@ -36,9 +36,18 @@ if (mediaAritmetica > 20) {
 }
 
 /* Exe 5 */
-let numerosImpares = 0;
+let maiorNumero = numbers[0];
+
+for (let numeros of numbers) {
+    if (numeros > maiorNumero) {
+        maiorNumero = numeros;
+    }
+    }
+console.log("Exe 5: o maior número é, ", maiorNumero);
 
 /* Exe 6 */
+let numerosImpares = 0;
+
 for (let numeros of numbers) {
     if (numeros % 2 !== 0) {
         numerosImpares = numerosImpares + 1;
@@ -48,6 +57,14 @@ for (let numeros of numbers) {
 console.log("Exe 6: Qntd de Numero Impares, ", numerosImpares)
 
 /* Exe 7 - é o oposto do 5 */
+let menorNumero = numbers[0];
+
+for (let numeros of numbers) {
+    if (numeros < menorNumero) {
+        menorNumero = numeros;
+    }
+    }
+console.log("Exe 7: o menor número é, ", menorNumero);
 
 
 /* Exe 8 */
@@ -62,8 +79,8 @@ console.log("Exe 8: array = ", array);
 /* Exe 9 - aproveitando a estrutura do exe 8*/
 let arrayDivididoPor2 = [];
 
-for (let index = 0; index < array.length; index =+ 1) {
-    array[index] = array[index] / 2;
+for (let indice = 0; indice < array.length; indice += 1) {
+    arrayDivididoPor2.push(array[indice]/2);
 }
 
-console.log("Exe 9: array dividido por 2 = ", array);
+console.log("Exe 9: array dividido por 2 = ", arrayDivididoPor2);
