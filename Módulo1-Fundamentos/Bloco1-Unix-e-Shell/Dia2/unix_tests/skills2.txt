@@ -1,8 +1,0 @@
-Animais
-Bash
-Garrafas
-Internet
-Kernell
-Microphone
-Shell
-Unix
