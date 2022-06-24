@@ -41,7 +41,7 @@ for(let index = 0; index < array.length; index += 1) {
 console.log("Exe 3: a maior palavra do array é: ", maiorPalavra);
 console.log("Exe 3: a menor palavra do array é: ", menorPalavra);
 
-/* Exe 4 */
+/* Exe 4 - último exe */
 let arrayNumeroPrimo = [2, 3, 5, 7];
 
 for(let index = 2; index <= 50; index += 1) {

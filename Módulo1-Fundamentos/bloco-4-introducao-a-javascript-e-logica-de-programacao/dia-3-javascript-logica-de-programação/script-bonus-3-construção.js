@@ -1,4 +1,4 @@
-/* Bonus 3 - Por construção*/
+/* Bonus 3 */
 let n = 5;
 let i = 1;
 
