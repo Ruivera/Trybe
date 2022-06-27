@@ -4,6 +4,6 @@ let car = {
     year: 2020
   };
 
-  for(let valores in car) {
-    console.log(car[valores]);
+  for(let valores of car) {
+    console.log(valores);
   }
