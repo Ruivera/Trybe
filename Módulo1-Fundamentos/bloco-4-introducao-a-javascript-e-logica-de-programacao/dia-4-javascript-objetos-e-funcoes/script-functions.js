@@ -86,7 +86,6 @@ function maisRepetições(array) {
 
 console.log("Exe 5: numero que mais repetiu foi o: ", maisRepetições(teste3));
 
-
 /* Exe 6 */
 function somatorio(n) {
   let sum = 0;
@@ -96,6 +95,25 @@ function somatorio(n) {
   return sum;
 }
 
-console.log("Exe 6: resultado dos somatórios: ", somatorio(5))
+console.log("Exe 6: resultado dos somatórios: ", somatorio(5));
 
 /* Exe 7 */
+
+function verificarFimPalavra(word, ending) {
+  let quantidade = 0;
+  
+  for (let index = 0; index < ending.length; index += 1) {
+    if (ending[index] === word[word.length - ending.length + index]) {
+      quantidade = quantidade + 1;
+    } else {
+      quantidade = quantidade;
+    }
+  }
+  if (quantidade === ending.length) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log("Exe 7: verificar fim da palavra: ", verificarFimPalavra("trybe", "be"));
