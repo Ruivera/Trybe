@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header class="haduken">
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="igual">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="igual">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelectorAll('.igual')[1];
+      paragraph.style.color = "green";
+      const changeOfColor = document.querySelectorAll('h4')[0];
+      changeOfColor.style.color = 'pink';
+      const querySelector = document.querySelectorAll('p');
+      console.log(querySelector)
+      const getElementsByTagName = document.getElementsByTagName('p');
+      console.log(getElementsByTagName)
+    </script>
+  </body>
+</html>
