@@ -58,6 +58,90 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      /* Exe 1 */
+      const h1Body = document.createElement('h1');
+      h1Body.innerText = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(h1Body);
+
+      /* Exe 2 */
+      const elementMain = document.createElement('main');
+      elementMain.className = 'main-content';
+      document.body.appendChild(elementMain);
+      
+      /* Exe 3 */
+      const elementSection = document.createElement('section');
+      elementSection.className = 'center-content';
+      elementMain.appendChild(elementSection);
+      
+      /* Exe 4 */
+      const elementP = document.createElement('p');
+      elementP.innerText = 'Hadooooouken!';
+      elementSection.appendChild(elementP);
+
+      /* Exe 5 */
+      const elementSection2 = document.createElement('section');
+      elementSection2.className = 'left-content';
+      elementMain.appendChild(elementSection2);
+
+      /* Exe 6 */
+      const elementSection3 = document.createElement('section');
+      elementSection3.className = 'right-content';
+      elementMain.appendChild(elementSection3);
+
+      /* Exe 7 */
+      const elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      elementSection2.appendChild(elementImg);
+
+      /* Exe 8 */
+      const elementListNaoOrdenada = document.createElement('ul');
+      let array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let index = 0; index < array.length; index += 1) {
+        let item = document.createElement('li');
+        item.innerText = array[index];
+        elementListNaoOrdenada.appendChild(item)
+      }
+      elementSection3.appendChild(elementListNaoOrdenada);
+
+      /* Exe 9 */
+      const elementH3Um = document.createElement('h3');
+      elementMain.appendChild(elementH3Um);
+      elementH3Um.innerText = 'h3 um';
+
+      const elementH3Dois = document.createElement('h3');
+      elementMain.appendChild(elementH3Dois);
+      elementH3Dois.innerText = 'h3 dois';
+
+
+      const elementH3Tres = document.createElement('h3');
+      elementMain.appendChild(elementH3Tres);
+      elementH3Tres.innerText = 'h3 tres';
+
+      /* Exe 1 - Parte 2 */
+      h1Body.className = 'title';
+
+      /* Exe 2 - Parte 2 */
+      elementH3Um.className = 'description';
+      elementH3Dois.className = 'description';
+      elementH3Tres.className = 'description';
+
+      /* Exe 3 - Parte 2 */
+      elementMain.removeChild(elementSection2);
+
+      /* Exe 4 - Parte 2 */
+      const marginRightSection3 = document.getElementsByClassName('right-content')[0];
+      marginRightSection3.style.marginRight = 'auto';
+
+      /* Exe 5 - Parte 2 */
+      const classSection = document.getElementsByClassName('center-content')[0];
+      classSection.parentNode.style.backgroundColor = 'green';
+
+      /* Exe 6 - Parte 2 */
+      const ul = document.getElementsByTagName('ul')[0];
+      ul.lastChild.remove();
+      ul.lastChild.remove();
+
     </script>
   </body>
 </html>
