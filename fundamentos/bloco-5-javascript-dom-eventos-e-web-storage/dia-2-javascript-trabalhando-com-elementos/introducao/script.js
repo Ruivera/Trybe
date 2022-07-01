@@ -25,7 +25,6 @@ elementoP2.innerText = 'Filho primeiroFilhoDoFilho: vai karai!!';
 primeiroFilhoDoFilho.appendChild(elementoP2);
 
 const  elementoP3 = document.createElement('p');
-elementoP3.innerText = 'Irmão elementoOndeVoceEsta: vai karai!!';
 pai.appendChild(elementoP3);
 
 console.log(elementoP3.previousElementSibling.previousElementSibling)
@@ -33,15 +32,15 @@ console.log(elementoP3.previousElementSibling.previousElementSibling)
 const paiDoPai = document.getElementById('paiDoPai');
 
 
+
 const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
 const primeiroFilho = document.getElementById('primeiroFilho');
 const terceiroFilho = document.getElementById('terceiroFilho');
 const quartoEUltimoFilho = document.getElementById('quartoEUltimoFilho');
 
-
-
-
 segundoEUltimoFilhoDoFilho.remove();
 primeiroFilho.remove();
 terceiroFilho.remove();
 quartoEUltimoFilho.remove();
+
+console.log(elementoOndeVoceEsta.nextSibling);
