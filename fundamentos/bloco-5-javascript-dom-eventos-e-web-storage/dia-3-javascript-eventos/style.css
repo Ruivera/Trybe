@@ -124,6 +124,8 @@
   
   .task-list-container {
     display: inline-block;
+    justify-content: end;
+    text-align: end;
   }
   
   .task-list-container ul {
