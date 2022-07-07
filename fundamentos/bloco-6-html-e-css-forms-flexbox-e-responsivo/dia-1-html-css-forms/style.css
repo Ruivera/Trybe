@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    line-height: 25px;
+}
+
+section{
+    text-align: start;
+    border: 2px solid black;
+    padding: 15px;
+}
