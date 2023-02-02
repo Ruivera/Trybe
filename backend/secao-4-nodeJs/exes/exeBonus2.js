@@ -17,7 +17,7 @@ function doMath (a, b, c) {
 
 async function firstResolve () {
     try {
-        const resolve = await doMath(10, 10, 10);
+        const resolve = await doMath(1, 23, 15);
         console.log(resolve);
     } catch(err) {
         console.log(err.message);
@@ -27,7 +27,7 @@ firstResolve();
 
 async function secondResolve() {
     try {
-        const resolve = await doMath(1, 1, 'a');
+        const resolve = await doMath(1, 'a', 15);
         console.log(resolve);
     } catch (error) {
         console.log(error.message);
