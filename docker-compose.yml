@@ -1,0 +1,11 @@
+  version: '3'
+
+  services:
+    db:
+      container_name: bernardo-practices
+      image: mysql:5.7.40
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: password
+        MYSQL_USER: root
+        MYSQL_PASSWORD: password
